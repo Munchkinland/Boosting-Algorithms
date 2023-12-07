@@ -10,23 +10,26 @@ Project Structure
 The project is structured as follows:
 
 src: This directory contains the source code for the project, including Jupyter notebooks for data exploration and model training, and Python scripts for saving and loading models.
+
 data: This directory contains the dataset used for the project, namely the diabetes.csv file.
+
 models: This directory stores the trained models generated during the project.
+
 Prerequisites
 To run the project, you will need the following prerequisites:
-
 Python 3.x
 Jupyter Notebook
+
 Libraries: pandas, numpy, matplotlib, scikit-learn, xgboost, lightgbm
 Usage
+
 Clone the repository:
-Bash
 git clone https://github.com/Munchkinland/Boosting-Algorithms.git
-Utiliza el código con precaución. Más información
+
 Install the required libraries:
-Bash
+
 pip install -r requirements.txt
-Utiliza el código con precaución. Más información
+
 Open the Jupyter notebook explore.ipynb to explore the dataset and understand the characteristics of the data.
 
 Train the XGBoost and LightGBM models using the scripts train_xgboost.py and train_lightgbm.py, respectively. These scripts load the data, prepare the features and target variable, and train the models.
